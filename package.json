@@ -1,0 +1,41 @@
+{
+  "name": "learning-node-js-general",
+  "version": "1.0.0",
+  "description": "Learning Basic Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiralee/nodejs-general"
+  },
+  "author": {
+    "name": "Tam Le Minh (Kijaden)",
+    "email": "leminhtamboy@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "faker": "^5.5.3",
+    "jest": "^27.4.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "2.3.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  },
+  "eslintIgnore": [
+    "*.test.js"
+  ]
+}
